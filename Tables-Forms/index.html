@@ -26,9 +26,11 @@
       <h2>Select Pizza Size</h2>
       <label for="pizzaSize">Pizza Size:</label>
       <select name="pizzaSize" id="pizzaSize" required>
-        <option>Medium</option>
-        <option>Large</option>
-        <option>XLarge</option>
+        <optgroup label="--Select Size">
+          <option>Medium</option>
+          <option>Large</option>
+          <option>XLarge</option>
+        </optgroup>
       </select> 
     </section>
 
@@ -62,40 +64,41 @@
     </section>
 
     <section>
-      <h3>List of My Favorite Games</h3>
-      <table border=1>
-        <tr>
-          <th>Developer</th>
-          <th>Title</th>
-          <th>Year</th>
-        </tr>
-        <tr>
-          <td>Bungie</td>
-          <td>Halo</td>
-          <td>2001</td>
-        </tr>
-        <tr>
-          <td>Bungie</td>
-          <td>Halo 2</td>
-          <td>2004</td>
-        </tr>
-        <tr>
-          <td>Bungie</td>
-          <td>Halo 3</td>
-          <td>2007</td>
-        </tr>
-        <tr>
-          <td>Mojang</td>
-          <td>Minecraft</td>
-          <td>2011</td>
-        </tr>
+      <table border="1">
+        <caption>List of My Favorite Games</caption>
+         <thead>
+            <tr>
+              <th>Developer</th>
+              <th>Title</th>
+              <th>Year</th>
+            </tr>
+         </thead>
+        
+        <tbody>
+          <tr>
+            <td colspan="3">Bungie</td>
+            <td>Halo</td>
+            <td>2001</td>
+          </tr>
+          <tr>
+            <td>Halo 2</td>
+            <td>2004</td>
+          </tr>
+          <tr>
+            <td>Halo 3</td>
+            <td>2007</td>
+          </tr>
+          <tr>
+            <td>Mojang</td>
+            <td>Minecraft</td>
+            <td>2011</td>
+          </tr>
+        </tbody>
+        
         <tfoot>Count: 4</tfoot>
       </table>
     </section>
 
-</html>
-
   </body>
-
 
 </html>
