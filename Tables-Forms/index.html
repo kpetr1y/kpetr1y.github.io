@@ -2,33 +2,56 @@
 
 <html lang="en">
 
-  <head>Tables and Forms</head>
+  <head>
+    <title>Tables and Forms</title>
+  </head>
 
   <body>
 
     <h1>Pizza Ordering Form</h1>
-    <br>
 
     <section>
       <h2>Contact Information</h2>
       <label for="inName">Name:</label>
       <input type="text" name="inName" id="inName" required>
-
+      <br>
       <label for="inPhone">Phone:</label>
       <input type="phone" name="inPhone" id="inPhone" required>
-
+      <br>
       <label for="inEmail">Email:</label>
       <input type="email" name="inEmail" id="inEmail" required>
     </section>
 
     <section>
       <h2>Select Pizza Size</h2>
+      <label for="pizzaSize">Pizza Size:</label>
       <select name="pizzaSize" id="pizzaSize" required>
         <option>Medium</option>
         <option>Large</option>
         <option>XLarge</option>
-      </select>
-      
+      </select> 
+    </section>
+
+    <section>
+      <h2>Select Sauce</h2>
+      <input type="radio" name="sauceOp" required><label>Marinara</label>
+      <input type="radio" name="sauceOp" required><label>Ranch</label>
+      <input type="radio" name="sauceOp" required><label>No Sauce</label>
+    </section>
+
+    <section>
+      <h2>Select Toppings</h2>
+      <input type="checkbox" name="toppingsOp"><label>Pepperoni</label>
+      <input type="checkbox" name="toppingsOp"><label>Sausage</label>
+      <br>
+      <input type="checkbox" name="toppingsOp"><label>Mushroom</label>
+      <input type="checkbox" name="toppingsOp"><label>Pineapple</label>
+      <input type="checkbox" name="toppingsOp"><label>Peppers</label>
+      <input type="checkbox" name="toppingsOp"><label>Onions</label>
+    </section>
+
+    <section>
+      <h2>Additional Instructions</h2>
 
 
       
