@@ -4,7 +4,8 @@ body {
 }
 
 h1 {
-    text-align: center
+    text-align: center;
+    font-size: 50px
 }
 
 h1, h2 {
@@ -27,12 +28,11 @@ p.blue {
 }
 
 li {
-    text-align: left;
+    margin-left: 0px;
     list-style-type: decimal-leading-zero;
 }
 
 ol li::marker {
-    text-align: left;
     font-size: 20px;
 }
 
