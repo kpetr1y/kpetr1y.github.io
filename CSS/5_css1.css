@@ -22,11 +22,10 @@ p.blue {
     background-color: darkblue;
 }
 
-li {
+li::marker {
     list-style-type: decimal-leading-zero;
     text-align: left;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 15px;
 }
 
 li a {
@@ -38,11 +37,10 @@ p a {
 }
 
 table, td, tr {
+    padding: 10 px;
     border: 1px solid black;
     border-collapse: collapse;
     background-color: white;
-    padding: 10 px;
-
 }
 
 th {
