@@ -4,24 +4,25 @@ body {
 }
 
 h1 {
-    text-align:center
+    text-align: center
 }
 
 #paragraph2 {
-    padding: 15px;
-    border: 2px solid green;
-    margin: 1px;
+    padding: 25px;
+    border: 4px solid green;
+    margin: 2px;
     background-color: white;
     line-height: 1.5em;
 }
 
 p.blue {
     color: white;
+    padding: 15px;
     border-color: lightblue;
-    background-color: blue;
+    background-color: darkblue;
 }
 
-li {
+li a {
     color: blue;
     list-style-type: decimal-leading-zero
 }
@@ -30,9 +31,10 @@ p a {
     color: orange
 }
 
-table {
+table, td, tr {
     border: 2px solid black;
     border-collapse: collapse;
+    background-color: white;
 }
 
 th {
