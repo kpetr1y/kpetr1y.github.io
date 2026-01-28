@@ -1,1 +1,40 @@
 
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align:center
+}
+
+#paragraph2 {
+    padding: 15px;
+    border: 2px solid green;
+    margin: 1px;
+    background-color: white;
+    line-height: 1.5em;
+}
+
+p.blue {
+    color: white;
+    border-color: lightblue;
+    background-color: blue;
+}
+
+li {
+    color: blue;
+    list-style-type: decimal-leading-zero
+}
+
+p a {
+    color: orange
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: grey;
+}
