@@ -8,9 +8,9 @@ h1 {
 }
 
 #paragraph2 {
-    padding: 25px;
+    padding: 30px;
     border: 4px solid green;
-    margin: 2px;
+    margin: 20px;
     background-color: white;
     line-height: 2em;
 }
@@ -22,7 +22,7 @@ p.blue {
     background-color: darkblue;
 }
 
-li::marker {
+ol li::marker {
     list-style-type: decimal-leading-zero;
     text-align: left;
     font-size: 15px;
