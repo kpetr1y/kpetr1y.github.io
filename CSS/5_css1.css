@@ -27,8 +27,9 @@ p.blue {
     background-color: darkblue;
 }
 
-li {
+ol {
     list-style-type: decimal-leading-zero;
+    text-align: left;
 }
 
 ol li::marker {
