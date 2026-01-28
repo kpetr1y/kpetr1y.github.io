@@ -7,6 +7,10 @@ h1 {
     text-align: center
 }
 
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
 #paragraph2 {
     padding: 30px;
     border: 4px solid green;
@@ -17,17 +21,18 @@ h1 {
 
 p.blue {
     color: white;
-    padding: 15px;
+    padding: 25px;
     border-color: black;
     background-color: darkblue;
 }
 
 li {
-    list-style-type: decimal-leading-zero;
     text-align: left;
+    list-style-type: decimal-leading-zero;
 }
 
 ol li::marker {
+    text-align: left;
     font-size: 20px;
 }
 
@@ -36,7 +41,7 @@ li a {
 }
 
 p a {
-    color: orange
+    color: darkred
 }
 
 table, td, tr {
