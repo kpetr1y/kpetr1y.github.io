@@ -29,11 +29,10 @@ p.blue {
 
 ol {
     list-style-type: decimal-leading-zero;
-    text-align: left;
+    padding-left: 20px;
 }
 
 ol li::marker {
-    margin-left: 0px;
     font-size: 20px;
 }
 
