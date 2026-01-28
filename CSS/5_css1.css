@@ -29,6 +29,7 @@ p.blue {
 
 li {
     margin-left: 0px;
+    padding-left: 10px;
     list-style-type: decimal-leading-zero;
 }
 
