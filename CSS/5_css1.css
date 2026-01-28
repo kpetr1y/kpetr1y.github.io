@@ -12,20 +12,21 @@ h1 {
     border: 4px solid green;
     margin: 2px;
     background-color: white;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 p.blue {
     color: white;
     padding: 15px;
-    border-color: lightblue;
+    border-color: black;
     background-color: darkblue;
 }
 
 li {
     list-style-type: decimal-leading-zero;
-    list-style-position: inside;
-    font-size: 15px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 li a {
@@ -40,7 +41,7 @@ table, td, tr {
     border: 2px solid black;
     border-collapse: collapse;
     background-color: white;
-    padding: 10px 20 px 10 px 2px;
+    padding: 10 px;
 
 }
 
