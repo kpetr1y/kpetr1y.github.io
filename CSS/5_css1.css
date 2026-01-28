@@ -22,9 +22,14 @@ p.blue {
     background-color: darkblue;
 }
 
+li {
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    font-size: 15px;
+}
+
 li a {
     color: blue;
-    list-style-type: decimal-leading-zero
 }
 
 p a {
@@ -35,6 +40,8 @@ table, td, tr {
     border: 2px solid black;
     border-collapse: collapse;
     background-color: white;
+    padding: 10px 20 px 10 px 2px;
+
 }
 
 th {
