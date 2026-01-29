@@ -3,13 +3,18 @@
     left: 0px;
     height: 100%;
     width: 15%;
-    background-color: yellow;
+    background-color: lightseagreen;
     border: 1px solid black;
+}
+
+main {
+    margin-left: 16%
 }
 
 header p {
     position: sticky;
     top: 0;
+    height: 50px;
     background-color: lightblue;
     border: 1px solid black;
     text-align: center;
@@ -19,20 +24,30 @@ header p {
 header nav {
     position: sticky;
     top: 40px;
-    background-color: green;
+    height: 50px;
+    background-color: lightgreen;
     border: 1px solid black;
     text-align: center;
 }
 
 #container {
-    width: 300px;
     display: flex;
     flex-wrap: wrap;
+    background-color: lightpink;
+}
 
+#container article {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
 }
 
 #thanks {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    right: 0
+    right: 0;
+    background-color: lightcoral;
+    border: 1px solid black;
 }
