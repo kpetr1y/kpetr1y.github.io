@@ -1,0 +1,38 @@
+#jumpMenu {
+    position: fixed;
+    left: 0px;
+    height: 100%;
+    width: 15%;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+header p {
+    position: sticky;
+    top: 0;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+header nav {
+    position: sticky;
+    top: 40px;
+    background-color: green;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#container {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#thanks {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}

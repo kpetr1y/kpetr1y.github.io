@@ -20,7 +20,7 @@ h1, h2 {
     line-height: 2em;
 }
 
-p.blue {
+.blue p {
     color: white;
     padding: 25px;
     border-color: black;
