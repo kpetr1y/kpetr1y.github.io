@@ -21,6 +21,10 @@ main {
     border: 1px solid black;
 }
 
+#jumpMenu a {
+    background-color: lightblue;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -31,7 +35,7 @@ header p {
     height: 50px;
     background-color: lightblue;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 
 }
 
@@ -40,7 +44,7 @@ header nav {
     height: 50px;
     background-color: lightgreen;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 #container {
@@ -55,7 +59,7 @@ header nav {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    background-color: lightgray;
+    background-color: lightsalmon;
     border: 1px solid black;
 }
 
