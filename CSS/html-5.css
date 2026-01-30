@@ -18,6 +18,7 @@ main {
 
 body {
     margin: 0;
+    height: 100%;
 }
 
 header {
@@ -29,7 +30,6 @@ header p {
     margin: 0;
     height: 50px;
     background-color: lightblue;
-    border: 1px solid black;
     text-align: center;
     padding: 20px;
 
@@ -39,7 +39,6 @@ header nav {
     top: 50px;
     height: 50px;
     background-color: lightgreen;
-    border: 1px solid black;
     text-align: center;
     padding: 20px;
 }
@@ -55,15 +54,16 @@ header nav {
     margin: 10px;
     padding: 10px;
     text-align: center;
+    justify-content: space-evenly;
+    background-color: lightgray;
     border: 1px solid black;
 }
 
 #thanks {
     position: fixed;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     background-color: lightcoral;
-    border: 1px solid black;
     text-align: center;
     padding: 30px;
 }
