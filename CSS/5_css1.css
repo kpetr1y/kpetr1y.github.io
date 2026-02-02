@@ -37,11 +37,11 @@ h1, h2 {
 
 ol {
     list-style-type: decimal-leading-zero;
-    padding-left: 26px;
+    padding-left: 33px;
 }
 
 ol li::marker {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 li a {
