@@ -16,6 +16,10 @@ h1, h2 {
     font-family: Arial, sans-serif;
 }
 
+h3 {
+    font-size: 25;
+}
+
 #paragraph2 {
     width: 850px;
     padding-top: 20px;
