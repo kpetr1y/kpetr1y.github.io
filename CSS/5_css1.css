@@ -17,6 +17,7 @@ h1, h2 {
 }
 
 #paragraph2 {
+    size: 450px;
     padding: 30px;
     border: 4px solid green;
     margin: 20px;
