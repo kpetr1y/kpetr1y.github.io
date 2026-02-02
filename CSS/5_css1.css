@@ -41,7 +41,7 @@ ol {
 }
 
 ol li::marker {
-    font-size: 18px;
+    font-size: 25px;
 }
 
 li a {
