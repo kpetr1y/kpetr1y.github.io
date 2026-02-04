@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin-left: 15%;
+    float: right;
+    height: 100%;
+}
+
+#menuItems {
+    position: fixed;
+    display: flex;             
+    flex-direction: column;    
+    left: 0px;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    background-color: blue;
+}
+
+#menuItems:hover {
+    background-color: orange;
+    color: white;
+}
+
+#jumpMenu {
+    display: none;
+    top: 100%;   
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    color: blue;
+}
+
+#recentArticles:hover > #jumpMenu{
+    display: block;
+}
+
+#jumpMenu:hover {
+    background-color: blue;
+    color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: red;
+    margin: 0;
+    height: 50px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightpink;
+}
+
+#container article {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: lightgray;
+    background-color: lightsalmon;
+    border: 1px solid black;
+    transition: width 2s, height 2s;
+}
+
+#container::first-letter {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+}
+
+article a::after {
+    content: url(/assets/images/arrow.png)
+}
+
+article:hover {
+    color: black;
+    width: 350px;
+    height: 650px;
+}
+
+#thanks {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    background-color: lightcoral;
+    text-align: center;
+    padding: 50px;
+}

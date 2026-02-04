@@ -8,6 +8,10 @@ main {
     height: 100%;
 }
 
+h1 {
+    text-align: center;
+}
+
 #jumpMenu {
     position: fixed;
     display: flex;             
