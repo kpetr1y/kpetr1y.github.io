@@ -69,6 +69,7 @@ header p {
     text-align: center;
     justify-content: center;
     background-color: red;
+    padding: 20px;
     height: 100px;
     margin: 0;
 }
@@ -81,7 +82,7 @@ header p {
 
 #container article {
     width: 250px;
-    height: 450px;
+    height: 500px;
     margin: 10px;
     padding: 10px;
     text-align: justify;
@@ -93,7 +94,7 @@ header p {
 #container article:hover {
     color: black;
     width: 300px;
-    height: 500px;
+    height: 550px;
 }
 
 #container article p:first-of-type::first-letter {
