@@ -60,11 +60,11 @@ header {
     margin: 0;
     height: 50px;
     padding: 20px;
+    text-align: center;
 }
 
 header p {
     font-size: 30px;
-    text-align: center;
 }
 
 #container {
@@ -75,22 +75,20 @@ header p {
 
 #container article {
     width: 300px;
-    height: 400px;
     margin: 10px;
     padding: 10px;
     text-align: center;
     color: gray;
 
-    transition: width 2s, height 2s;
+    transition: width 2s;
 }
 
 #container article:hover {
     color: black;
     width: 350px;
-    height: 450px;
 }
 
-#container article p:first-of-type::first-of-letter {
+div article p:first-child {
     font-family: "Times New Roman", Times, serif;
     font-size: 36px;
 }
