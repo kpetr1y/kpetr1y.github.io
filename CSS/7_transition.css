@@ -81,7 +81,7 @@ header p {
 
 #container article {
     width: 250px;
-    height: 350px;
+    height: 400px;
     margin: 10px;
     padding: 10px;
     text-align: justify;
@@ -93,7 +93,7 @@ header p {
 #container article:hover {
     color: black;
     width: 300px;
-    height: 400px;
+    height: 450px;
 }
 
 #container article p:first-of-type::first-letter {
