@@ -34,7 +34,6 @@ button:hover {
 }
 
 #jumpMenu {
-    position:absolute;
     display: none;
     width: 100%;
     top: 100%;   
@@ -61,7 +60,6 @@ header {
     background-color: red;
     margin: 0;
     height: 50px;
-    align-items: center;
 }
 
 header p {
@@ -90,7 +88,7 @@ header p {
     width: 350px;
 }
 
-#container article p:first-child::first-letter {
+#container article p:first-of-type::first-letter {
     font-family: "Times New Roman", Times, serif;
     font-size: 36px;
 }
