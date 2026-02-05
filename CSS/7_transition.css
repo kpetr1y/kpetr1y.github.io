@@ -92,6 +92,7 @@ header p {
 
 #container article:hover {
     color: black;
+    margin: 10px;
     transform: scale(1.05);
 }
 
