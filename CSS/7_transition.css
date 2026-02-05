@@ -85,10 +85,10 @@ header p {
 #container article {
     width: 250px;
     height: 575px;
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     text-align: justify;
-    color: lightgray;
+    color: rgb(159, 159, 159);
 
     transition: all 2s;
 }
