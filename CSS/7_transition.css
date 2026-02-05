@@ -92,8 +92,8 @@ header p {
 
 #container article:hover {
     color: black;
-    width: 275px;
-    height: 625px;;
+    width: 290px;
+    height: 650px;;
 }
 
 #container article p:first-of-type::first-letter {
