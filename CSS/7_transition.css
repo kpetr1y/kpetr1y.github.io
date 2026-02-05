@@ -94,7 +94,7 @@ header p {
     color: black;
     width: 290px;
     height: 650px;
-    font-size: 1.10rem;
+    font-size: 1.15rem;
 }
 
 #container article p:first-of-type::first-letter {
