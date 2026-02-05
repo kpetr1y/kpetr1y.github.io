@@ -25,7 +25,7 @@ h1 {
 }
 
 button {
-    font-size: 24px;
+    font-size: 20px;
     background-color: blue;
     color: white;
     padding: 20px;
@@ -41,8 +41,7 @@ button:hover {
     left: 0;
     margin: 0%;
     padding: 0;
-    font-size: 20px;
-    list-style-type: none;
+    font-size: 18px;
     background-color: orange;
     color: blue;
 }
@@ -54,6 +53,7 @@ button:hover {
 #jumpMenu li a {
     display: block;
     width: 100%;
+    text-decoration: none;
 }
 
 #jumpMenu li a:hover {
