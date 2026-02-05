@@ -37,7 +37,7 @@ button:hover {
     display: none;
     top: 100%;   
     left: 0;
-    margin: 0;
+    margin: 100%;
     padding: 0;
     background-color: orange;
     color: blue;
@@ -50,7 +50,7 @@ button:hover {
 #jumpMenu li a:hover {
     background-color: blue;
     color: white;
-    width: 15%;
+    
 }
 
 header {
@@ -65,6 +65,7 @@ header {
 
 header p {
     font-size: 30px;
+    text-align: center;
 }
 
 #container {
@@ -88,7 +89,7 @@ header p {
     width: 350px;
 }
 
-div article p:first-child {
+article p:first-child {
     font-family: "Times New Roman", Times, serif;
     font-size: 36px;
 }
