@@ -39,7 +39,7 @@ button:hover {
     color: blue;
 }
 
-#recentArticles:hover + #jumpMenu{
+#recentArticles:hover + #jumpMenu, #jumpMenu:hover{
     display: block;
 }
 
@@ -62,7 +62,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: lightpink;
 }
 
 #container article {
@@ -71,7 +70,7 @@ header {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    color: lightgray;
+    color: gray;
 
     transition: width 2s, height 2s;
 }
@@ -82,7 +81,7 @@ header {
     height: 500px;
 }
 
-#container article p::first-letter {
+#container article + p::first-letter {
     font-family: "Times New Roman", Times, serif;
     font-size: 36px;
 }
