@@ -47,7 +47,7 @@ button:hover {
     display: block;
 }
 
-#jumpMenu:hover a {
+#jumpMenu li a:hover {
     background-color: blue;
     color: white;
 }
@@ -56,10 +56,13 @@ header {
     position: sticky;
     top: 0;
     background-color: red;
-    font-size: 40px;
-    font-style: bold;
     margin: 0;
     height: 50px;
+}
+
+header p {
+    font-size: 40px;
+    font-style: bold;
     text-align: center;
     padding: 20px;
 }
@@ -87,7 +90,7 @@ header {
     height: 500px;
 }
 
-#container article + p::first-letter {
+article + p::first-letter {
     font-family: "Times New Roman", Times, serif;
     font-size: 36px;
 }
