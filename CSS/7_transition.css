@@ -87,13 +87,14 @@ header p {
     text-align: justify;
     color: gray;
 
-    transition: all 2s;
+    transition: tranform 2s;
 }
 
 #container article:hover {
     color: black;
-    margin: 10px;
-    transform: scale(1.05);
+    width: 290px;
+    height: 650px;
+    font-size: 1.05rem;
 }
 
 #container article p:first-of-type::first-letter {
