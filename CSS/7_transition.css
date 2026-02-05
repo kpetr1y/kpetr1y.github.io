@@ -8,6 +8,10 @@ main {
     height: 100%;
 }
 
+h1 {
+    text-align: center;
+}
+
 #menuItems {
     position: fixed;
     display: flex;             
@@ -43,7 +47,7 @@ button:hover {
     display: block;
 }
 
-#jumpMenu:hover {
+#jumpMenu:hover a {
     background-color: blue;
     color: white;
 }
@@ -52,6 +56,8 @@ header {
     position: sticky;
     top: 0;
     background-color: red;
+    font-size: 40px;
+    font-style: bold;
     margin: 0;
     height: 50px;
     text-align: center;
@@ -95,7 +101,9 @@ article a::after {
     bottom: 0;
     right: 0;
     margin: 0;
-    background-color: lightcoral;
+    background-color: lightblue;
+    font-size: 36px;
+    font-style: underline;
     text-align: center;
     padding: 50px;
 }
