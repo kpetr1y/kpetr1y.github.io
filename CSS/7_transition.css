@@ -50,6 +50,7 @@ button:hover {
 #jumpMenu li a:hover {
     background-color: blue;
     color: white;
+    width: 15%;
 }
 
 header {
@@ -58,13 +59,12 @@ header {
     background-color: red;
     margin: 0;
     height: 50px;
+    padding: 20px;
 }
 
 header p {
-    font-size: 40px;
-    font-style: bold;
+    font-size: 30px;
     text-align: center;
-    padding: 20px;
 }
 
 #container {
@@ -75,7 +75,7 @@ header p {
 
 #container article {
     width: 300px;
-    height: 450px;
+    height: 400px;
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -87,10 +87,10 @@ header p {
 #container article:hover {
     color: black;
     width: 350px;
-    height: 500px;
+    height: 450px;
 }
 
-article + p::first-letter {
+#container article p:first-of-type::first-of-letter {
     font-family: "Times New Roman", Times, serif;
     font-size: 36px;
 }
