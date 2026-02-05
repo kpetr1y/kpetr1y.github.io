@@ -16,12 +16,18 @@ main {
     width: 15%;
     height: 100%;
     text-align: center;
-    background-color: blue;
+    background-color: black;
 }
 
-#menuItems:hover {
-    background-color: orange;
+button {
+    background-color: blue;
     color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: orange;
 }
 
 #jumpMenu {
@@ -34,7 +40,7 @@ main {
     color: blue;
 }
 
-#recentArticles:hover > #jumpMenu{
+#recentArticles:hover #jumpMenu{
     display: block;
 }
 
@@ -49,7 +55,6 @@ header {
     background-color: red;
     margin: 0;
     height: 50px;
-    background-color: lightblue;
     text-align: center;
     padding: 20px;
 }
@@ -63,28 +68,30 @@ header {
 
 #container article {
     width: 300px;
+    height: 600px;
     margin: 10px;
     padding: 10px;
     text-align: center;
     color: lightgray;
     background-color: lightsalmon;
     border: 1px solid black;
+
     transition: width 2s, height 2s;
 }
 
-#container::first-letter {
+#container article:hover {
+    color: black;
+    width: 350px;
+    height: 650px;
+}
+
+#container article p::first-letter {
     font-family: "Times New Roman", Times, serif;
     font-size: 36px;
 }
 
 article a::after {
     content: url(/assets/images/arrow.png)
-}
-
-article:hover {
-    color: black;
-    width: 350px;
-    height: 650px;
 }
 
 #thanks {
