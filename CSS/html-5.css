@@ -78,11 +78,13 @@ header nav button {
 }
 
 #thanks {
+    size: 30px;
     position: fixed;
     bottom: 0;
     right: 0;
     margin: 0;
     background-color: lightcoral;
+    border: 1px solid black;
     text-align: center;
     padding: 50px;
 }
