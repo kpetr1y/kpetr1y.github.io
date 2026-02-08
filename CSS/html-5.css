@@ -37,19 +37,19 @@ header {
 
 header p {
     margin: 0;
-    height: 50px;
     background-color: lightblue;
     text-align: center;
     padding: 20px;
-
+    font-size: 30px;
 }
 
 header nav {
     top: 50px;
-    height: 50px;
     background-color: lightgreen;
     text-align: center;
     padding: 20px;
+    font-size: 35px;
+    width: 100%;
 }
 
 #container {
