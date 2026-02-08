@@ -16,7 +16,7 @@ h1 {
     position: fixed;
     display: flex;             
     flex-direction: column;    
-    justify-content: space-evenly;
+    justify-content: space-between;
     left: 0px;
     bottom: 0px;
     width: 15%;
@@ -28,7 +28,7 @@ h1 {
 #jumpMenu a {
     background-color: lightblue;
     padding: 15px;
-    margin: 0px;
+    margin: 5px;
 }
 
 header {
