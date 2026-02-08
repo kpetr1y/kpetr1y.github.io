@@ -75,7 +75,7 @@ header nav button {
 }
 
 #thanks {
-    size: 30px;
+    font-size: 30px;
     position: fixed;
     bottom: 0;
     right: 0;
