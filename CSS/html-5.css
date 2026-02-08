@@ -44,9 +44,6 @@ header p {
 }
 
 header nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
     top: 50px;
     text-align: center;
     background-color: lightgreen;
@@ -54,9 +51,9 @@ header nav {
 }
 
 header nav button {
+    width: 300px;
     height: 100%;
     font-size: 20px;
-    justify-content: center;
     background-color: blue;
     color: white;
 }
