@@ -44,16 +44,20 @@ header p {
 }
 
 header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     top: 50px;
-    background-color: lightgreen;
     text-align: center;
+    background-color: lightgreen;
     padding: 20px;
 }
 
 header nav button {
+    height: 100%;
     font-size: 20px;
     justify-content: center;
-    background-color: lightskyblue;
+    background-color: blue;
     color: white;
 }
 
