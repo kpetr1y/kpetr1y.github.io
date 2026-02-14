@@ -1,0 +1,70 @@
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+#paragraph2 {
+    width: 55%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 5px solid green;
+    margin: 25px;
+    background-color: white;
+    line-height: 2em;
+}
+
+ p.blue {
+    color: white;
+    padding: 25px;
+    border-color: black;
+    background-color: darkblue;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    padding-left: 33px;
+}
+
+ol li::marker {
+    font-size: 22px;
+}
+
+li a {
+    color: blue;
+}
+
+p a {
+    color: darkred
+}
+
+table, td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-collapse: collapse;
+}

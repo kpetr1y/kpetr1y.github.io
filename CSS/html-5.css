@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+}
+
+main {
+    margin-left: 10%;
+    float: right;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#jumpMenu {
+    position: fixed;
+    display: flex;             
+    flex-direction: column;    
+    justify-content: space-between;
+    left: 0px;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+#jumpMenu a {
+    padding: 2%;
+    margin: 0px;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+header p {
+    margin: 0;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    top: 50px;
+    text-align: center;
+    background-color: black;
+}
+
+header nav button {
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightpink;
+}
+
+#container article {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightsalmon;
+    border: 1px solid black;
+}
+
+#thanks {
+    font-size: 30px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+    background-color: lightcoral;
+    border: 1px solid black;
+    text-align: center;
+    padding: 25px;
+}
