@@ -1,16 +1,23 @@
 function showFilter() {
 
+    let block = document.getElementById("newContent");
+    block.style.display = "none";
+
     let view = document.getElementById("filterContent");
     view.style.display = "block";
 }
 
 function showAddNew() {
 
+    let block = document.getElementById("filterContent");
+    block.style.display = "none";
+
     let view = document.getElementById("newContent");
     view.style.display = "flex";
 }
 
 function addNewArticle() {
+
 
     let headerValue = document.getElementById("inputHeader").value;
     let contentValue = document.getElementById("inputArticle").value;
@@ -41,6 +48,11 @@ function addNewArticle() {
     let content = document.createElement("p");
     content.textContent = contentValue;
     newArticle.appendChild(content);
+
+     let link = document.createElement("a");
+    link.textContent = "Read more...";
+    link.href = "moreDetails.html";
+    newArticle.appendChild(link);
 
     let articleList = document.getElementById("articleList");
     articleList.appendChild(newArticle);
