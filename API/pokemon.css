@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'PixelGameFont';
+  src: url('../assets/fonts/PixelGameFont.ttf') format('truetype'),
+}
+
+body, html {
+    margin: 0;
+}
+
+body {
+    background-color: #FFEDC7;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#FD8A6B, #FFEDC7);
+    font-family: PixelGameFont, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color: #FF7070;
+    border: 5px solid #EB4C4C;
+    width: 450px;
+    padding: 20px;
+}
+
+#pokemonIMG {
+    padding: 20px;
+}
+
+img {
+    image-rendering: pixelated;
+    filter: contrast(1.1) brightness(1.05);
+}
+
+input, select, button {
+    font-family: PixelGameFont, monospace;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 15px;
+    border: 2px solid #EB4C4C;
+    background-color: #FFA6A6;
+    padding: 10px;
+}
+
+input, select {
+    border: 2px solid #EB4C4C;
+    background-color: #FFEDC7;
+    width: 200px;
+    height: 30px;
+}
+
+input {
+    font-size: 15px;
+}
+
+label {
+    font-size: 20px;
+    background-color: #EB4C4C;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.team article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid #FFEDC7;
+    background-color: #EB4C4C;
+}
+
+.team article img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-left:20px;
+}
+
+#pokeball {
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+ul {
+    list-style: none; 
+    padding-left: 1.5em;
+}
+
+ul li {
+    background-image: url(../assets/images/star.png);
+    background-repeat: no-repeat;
+    background-size: 1em 1em;
+    background-position: 0 0.2em;
+    padding: 2px 0 2px 1.5em;
+}

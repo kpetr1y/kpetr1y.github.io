@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pokemon</title>
+        <link rel="stylesheet" href="pokemon.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="pokemon.js"></script>
+    </head>
+    <body>
+        <main>
+
+            <label for="pokemonInput">NAME OR ID</label>
+            <br>
+
+            <div>
+                <input id="pokemonInput" name="pokemonInput" type="text">
+                <button onclick="findPokemon()" id="pokemonID" type="button">FIND</button>
+            </div>
+            <br>
+
+            <img src="../assets/images/pokeball.png" alt="pokemonIMG" id="pokemonIMG" width="300">
+            <br>
+
+            <audio controls id="pokemonAudio">
+                <source src="" type="audio/ogg">
+                <source src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <br>
+
+            <div class="moves-container"></div>
+
+                <div>
+                    <select id = "list1" name="pokemonMoves" id="pokemonMoves"></select>
+                    <select id = "list2" name="pokemonMoves" id="pokemonMoves"></select>
+                </div>
+                <br>
+                <div>
+                    <select id = "list3" name="pokemonMoves" id="pokemonMoves"></select>
+                    <select id = "list4" name="pokemonMoves" id="pokemonMoves"></select>
+                </div>
+
+            </div>
+
+            <br>
+            <button onclick="addTeam()" id="addTeam" type="button">ADD TO TEAM</button>
+
+            <div class="team"></div>
+        </main>
+    </body>
+</html>
